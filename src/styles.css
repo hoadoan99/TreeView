@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-angular-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+
+/* table  */
+
+table,
+th,
+td {
+    border: 1.5px #1d2a64;
+    border-style: inset;
+}
+
+table {
+    background-color: #1d486433;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.e-treeview .e-list-text {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* .e-treeview .e-list-text:hover {
+    color: #e3165b;
+} */
+
+
+/* .e-treeview .e-list-item.e-active>.e-fullrow {
+    background-color: rgba(14, 5, 54, 0.301);
+    border-color: transparent;
+} */
+
+.treeView {
+    /* border: 1px solid black; */
+    background-color: #d2dae0;
+    box-shadow: rgba(50, 50, 93, 0.329) 0px 2px 5px -1px, rgba(0, 0, 0, 0.432) 0px 1px 3px -1px;
+}
+
+body {
+    background-color: #ece7e793;
+}
+
+.convert-table {
+    background-color: #d2dae0;
+    width: 844px;
+    margin-top: 16px;
+    box-shadow: rgba(50, 50, 93, 0.329) 0px 2px 5px -1px, rgba(0, 0, 0, 0.432) 0px 1px 3px -1px;
+}
+
+.treeView h2,
+.convert-table h2 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.e-treeview .e-icon-collapsible::before,
+.e-treeview .e-icon-expandable::before {
+    font-size: 12px;
+}

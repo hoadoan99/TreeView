@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="treeView mt-3">
+                <h2>Table Report</h2>
+                <hr>
+                <div id='treeparent' class="mt-3">
+                    <ejs-treeview id='treeelement' [fields]='field' [allowEditing]='allowEditing' (nodeEditing)='editing($event)'></ejs-treeview>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="convert-table">
+                <h2>Convert Column</h2>
+                <table width="844" class="mt-3">
+                    <tbody>
+                        <tr>
+                            <td colspan="6" width="469">
+                                <p class="text-center">KH thang 2</p>
+                            </td>
+                            <td rowspan="3" width="175">
+                                <p class="text-center"> Ket Qua Ngay</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" width="91">
+                                <p class="text-center"> Tong</p>
+                            </td>
+                            <td colspan="2" width="124">
+                                <p>So Tn nam 2020</p>
+                            </td>
+                            <td colspan="2" width="124">
+                                <p>So Tn-1</p>
+                            </td>
+                            <td rowspan="2" width="130">
+                                <p class="text-center">KH Den Ngay</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="67">
+                                <p>Gia Tri</p>
+                            </td>
+                            <td width="57">
+                                <p>%</p>
+                            </td>
+                            <td width="67">
+                                <p>Gia Tri</p>
+                            </td>
+                            <td width="57">
+                                <p>%</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
